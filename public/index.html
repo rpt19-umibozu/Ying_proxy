@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset='UTF-8'>
+  <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <div id="reviews"></div>
+  <div id="reservation"></div>
+  <!-- <div id="serviceThree"></div>
+  <div id="serviceFour"></div> -->
+ <!-- <script src="http://localhost:3002/bundle.js"></script>
+  <script src="http://localhost:3003/bundle.js"></script> -->
+  <script src="http://localhost:3004/bundle.js"></script>
+  <script src="http://localhost:3001/bundle.js"></script>
+
+  <script>
+      ReactDOM.render(
+      React.createElement(reservation),
+      document.getElementById('reservation')
+    );
+    ReactDOM.render(
+      React.createElement(App),
+      document.getElementById('reviews')
+    );
+    // ReactDOM.render(
+    //   React.createElement(serviceThree),
+    //   document.getElementById('serviceThree')
+    // );
+    // ReactDOM.render(
+    //   React.createElement(serviceFour),
+    //   document.getElementById('serviceFour')
+    // );
+  </script>
+  </body>
+</html>
