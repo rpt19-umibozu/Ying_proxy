@@ -1,0 +1,16 @@
+#PhotoService {
+height: 100%;
+width: 100%;
+  float: center;
+}
+#reviews {
+height: 700px;
+width: 700px;
+float: left;
+}
+#reservation {
+position: left;
+}
+#recommendations {
+  float: left;
+}
