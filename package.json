@@ -1,17 +1,33 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
+  "name": "ying_proxy",
+  "description": "> Project description",
   "author": "",
-  "license": "",
+  "license": "ISC",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "nodemon server/index.js"
   },
   "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
-  }
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpt19-umibozu/Ying_proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rpt19-umibozu/Ying_proxy/issues"
+  },
+  "homepage": "https://github.com/rpt19-umibozu/Ying_proxy#readme"
 }
