@@ -6,11 +6,11 @@ width: 100%;
 #reviews {
 height: 700px;
 width: 700px;
-float: left;
+position: static;
 }
 #reservation {
 position: left;
 }
 #recommendations {
-  float: left;
+  position: static;
 }
