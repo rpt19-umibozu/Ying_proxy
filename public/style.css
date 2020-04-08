@@ -4,13 +4,57 @@ width: 100%;
   float: center;
 }
 #reviews {
-height: 700px;
-width: 700px;
-position: static;
+  margin: 0 40px;
 }
 #reservation {
-position: left;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 #recommendations {
-  position: static;
+  float: left;
+  margin:50px 0 400px 200px;
+}
+
+#reservationParent {
+  position: absolute;
+  top: 625px;
+  right: 200px;
+  height: 137.75%;
+}
+
+div #carouselContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background-color: white;
+  z-index: 1;
+}
+
+#afterReviews1 {
+  height: 850px;
+  width: 600px;
+  margin: 90px 20px 60px 80px;
+  float: left;
+}
+
+#afterReviews2 {
+  height: 600px;
+  width: 500px;
+  margin: 0 10px 25px 120px;
+}
+
+#afterReviews3 {
+  height: 425px;
+  width: 500px;
+  margin: 5px 0 0 117px;
+}
+
+#afterReviews4 {
+  height: 650px;
+  width: 90%;
+  margin: 0 40px 0 120px;
 }
