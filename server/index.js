@@ -5,7 +5,7 @@ const path = require('path');
 const httpProxy = require('http-proxy');
 const apiProxy = httpProxy.createProxyServer();
 const app = express();
-const fullPath = '/Users/yingwenchen/Desktop/HR project/HR_RPT/FEC/Ying_proxy/public/index.html';
+const fullPath = '/home/ubuntu/Ying_proxy/public/index.html';
 
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({
