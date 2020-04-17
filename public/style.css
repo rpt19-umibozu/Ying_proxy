@@ -64,7 +64,17 @@ div #carouselContainer {
   position: absolute;
   height: 350px;
   width: 948px;
-  top: 4128px;
-  left: 232.5px;
+  top: 4128px !important;
+  left: 232.5px !important;
   overflow: hidden;
+}
+
+#reviews #Hardcode1 {
+  display: none;
+}
+#reviews #Hardcode2 {
+  display: none;
+}
+#reviews #Hardcode3 {
+  display: none;
 }
